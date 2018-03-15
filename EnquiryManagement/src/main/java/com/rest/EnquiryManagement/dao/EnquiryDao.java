@@ -8,6 +8,8 @@ import com.rest.EnquiryManagement.model.Enquiry;
 import com.rest.EnquiryManagement.model.User;
 
 public interface EnquiryDao {
+	
+	// updated comments here
 
 	public boolean validateUser(User user, HttpServletRequest request);
 
